@@ -18,6 +18,7 @@ class Graph:
     
     #des
     #add a weighted edge between 2 vertex
+    #add: exception when edge already exists
     def add_edge(self, node1_id, node2_id, weight = 1):
         
         new_edge = Edge(node2_id, weight)
